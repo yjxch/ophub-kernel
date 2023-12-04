@@ -13,16 +13,18 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "13584452567"
+        default: "yujianxuechuan"
         type: choice
         options:
           - 13584452567
+          - yujianxuechuan
       kernel_version:
         description: "Select kernel version"
         required: false
         default: "6.6.1"
         type: choice
         options:
+          - 6.6.4
           - 6.6.1
           - 6.5.1
           - 6.4.1
